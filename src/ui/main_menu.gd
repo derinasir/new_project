@@ -9,4 +9,5 @@ func _ready() -> void:
 
 
 func _on_play_pressed() -> void:
-	SceneLoader.load_scene(initial_scene)
+	var scene_loader = ServiceLocator.get_service(&"SceneLoader")
+	scene_loader.load_scene(initial_scene)

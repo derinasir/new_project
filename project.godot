@@ -15,14 +15,6 @@ run/main_scene="uid://cfu565uv2dvcg"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
-[autoload]
-
-GameEvents="*uid://dhuw8wqio0h7u"
-ServiceLocator="*uid://cfwvcf1dcvd0o"
-SceneLoader="*uid://ykkrp7flpjyp"
-SFXManager="*uid://ce14txe6a17pg"
-Constants="*uid://3qb35ytdve1"
-
 [editor]
 
 version_control/plugin_name="GitPlugin"

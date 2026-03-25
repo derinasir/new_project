@@ -1,3 +1,4 @@
+class_name GameEvents
 extends Node
 
 @warning_ignore_start("unused_signal")
