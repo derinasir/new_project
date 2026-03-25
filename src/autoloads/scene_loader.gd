@@ -12,6 +12,7 @@ var use_sub_threads: bool = false
 
 func _ready() -> void:
 	set_process(false)
+	ServiceLocator.register(&"SceneLoader", self)
 
 
 func _process(_delta: float) -> void:
